@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Salman's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salman | Developer & Blogger</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#0f0f0f;color:white}
+header{padding:20px 10%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:bold;font-size:22px;color:#00ff88}
+nav a{color:#aaa;margin-left:20px;text-decoration:none}
+.hero{padding:80px 10%;text-align:center}
+.hero h1{font-size:50px;margin-bottom:15px}
+.hero h1 span{color:#00ff88}
+.hero p{color:#aaa;font-size:18px;max-width:600px;margin:0 auto 30px}
+.btns a{padding:12px 25px;border-radius:30px;text-decoration:none;margin:5px;display:inline-block;font-weight:bold}
+.btn1{background:#00ff88;color:black}
+.btn2{border:1px solid #444;color:white}
+.section{padding:60px 10%}
+h2{font-size:32px;margin-bottom:25px;color:#00ff88}
+.card{background:#1a1a1a;padding:25px;border-radius:15px;margin-bottom:20px;border:1px solid #222}
+.blog-card:hover{border-color:#00ff88;transition:0.3s}
+.skills span{background:#1a1a1a;border:1px solid #333;padding:8px 15px;border-radius:20px;margin:5px;display:inline-block}
+.contact a{font-size:20px;margin-right:15px;color:white;text-decoration:none;background:#1a1a1a;padding:12px 18px;border-radius:10px;display:inline-block;margin-bottom:10px}
+footer{text-align:center;padding:30px;color:#666;border-top:1px solid #222;margin-top:40px}
+</style>
 </head>
 <body>
-  <h1>Hello, I am Salman</h1>
-  <p>I am learning coding daily at 10 PM</p>
-  <a href="https://github.com/salmanssk710-source">My GitHub</a>
+
+<header>
+<div class="logo">SALMAN.Raza</div>
+<nav>
+<a href="#about">About</a>
+<a href="#blog">Blog</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Hello, I am <span>Salman</span> 👋</h1>
+<p>I am learning coding daily at 10 PM. Developer | Blogger | Creator from Bihar</p>
+<div class="btns">
+<a class="btn1" href="#blog">Read My Blogs</a>
+<a class="btn2" href="https://github.com/salmanssk710-source" target="_blank">My GitHub</a>
+</div>
+</div>
+
+<div class="section" id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>Hey! I am Salman, I love coding and blogging. Roz raat 10 baje coding seekh raha hu aur apna portfolio aur blog build kar raha hu. Mera sapna hai ek bada developer banna!</p>
+</div>
+<h2 style="margin-top:40px">Skills</h2>
+<div class="skills">
+<span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git & GitHub</span><span>Blogging</span><span>Content Writing</span>
+</div>
+</div>
+
+<div class="section" id="blog">
+<h2>My Blogs 📝</h2>
+<div class="card blog-card">
+<h3>🚀 How I Deployed My First Website on GitHub Pages</h3>
+<p style="color:#aaa;margin:10px 0">Maine kaise apni pehli website ko GitHub pe live kiya, wo bhi phone se! Poora process Spck Editor se.</p>
+<p style="color:#00ff88">Read More →</p>
+</div>
+<div class="card blog-card">
+<h3>💻 My Daily 10 PM Coding Routine</h3>
+<p style="color:#aaa;margin:10px 0">Roz raat 10 baje coding kaise karta hu, kaise manage karta hu time, aur kya kya seekh raha hu.</p>
+<p style="color:#00ff88">Read More →</p>
+</div>
+<div class="card blog-card">
+<h3>📱 Coding From Phone - Is It Possible?</h3>
+<p style="color:#aaa;margin:10px 0">Bina laptop ke phone se developer banna possible hai? Mera experience aur best apps.</p>
+<p style="color:#00ff88">Read More →</p>
+</div>
+</div>
+
+<div class="section" id="contact">
+<h2>Connect With Me</h2>
+<div class="contact">
+<a href="https://instagram.com/s_a_l_m_a_n___s_07" target="_blank">📸 Instagram</a>
+<a href="https://github.com/salmanssk710-source" target="_blank">💻 GitHub</a>
+<a href="mailto:salmanssk710@gmail.com">✉️ Email</a>
+</div>
+<p style="color:#aaa;margin-top:20px">Insta ID: <b style="color:white">@s_a_l_m_a_n___s_07</b> (s_a_l_m_a_n___s_07)</p>
+</div>
+
+<footer>
+Made with ❤️ by Salman | Learning Daily at 10 PM
+</footer>
+
 </body>
 </html>
