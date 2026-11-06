@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theuntoldlife.vercel.app/sitemap.xml
