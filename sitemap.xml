@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sitemap - The Untold Life</title>
-<style>
-body{font-family:sans-serif; background:#fffaf0; margin:0; padding:20px}
-h1{text-align:center; color:#ff4500}
-.card{background:white; padding:18px; border-radius:16px; margin:12px auto; max-width:600px; box-shadow:0 4px 12px rgba(0,0,0,0.08)}
-a{color:#222; text-decoration:none; font-weight:bold; display:block}
-a:hover{color:#ff4500}
-small{color:#888}
-</style>
-</head>
-<body>
-<h1>🗺️ Sitemap</h1>
-<p style="text-align:center">The Untold Life - Saare Blogs Ek Jagah</p>
-<div class="card"><a href="index.html">🏠 Home</a><small>Main Page</small></div>
-<div class="card"><a href="blog.html">📝 All Blogs</a><small>Blog List</small></div>
-<div class="card"><a href="blog1.html">🚀 How I Deployed My First Website</a></div>
-<div class="card"><a href="diwali.html">🪔 Diwali Shayari 2026</a><small>Latest - Most Popular</small></div>
-<div class="card"><a href="sitemap.xml">🤖 Sitemap XML - For Google</a></div>
-<br>
-<center><a href="index.html" style="background:#ff4500; color:white; padding:12px 24px; border-radius:25px; display:inline-block;">← Back to Home</a></center>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://theuntoldlife.vercel.app/</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/index.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/blog.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/blog1.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/diwali.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/about.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/contact.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/privacy-policy.html</loc></url>
+  <url><loc>https://theuntoldlife.vercel.app/sitemap.html</loc></url>
+</urlset>
