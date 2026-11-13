@@ -20,3 +20,15 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
+.blog-card {
+  border-radius: 15px; /* kone gol ho jayenge */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* halki si parchai, pro lagega */
+  padding: 15px;
+  background: white;
+  transition: 0.3s;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
